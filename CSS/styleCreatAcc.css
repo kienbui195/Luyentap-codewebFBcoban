@@ -1,0 +1,172 @@
+.container {
+    background-color: #d7d7e5;
+    width: 100%;
+    height: 800px;
+    font-family: Arial, "Times New Roman";
+}
+
+.header {
+    width: 100%;
+    height: 60px;
+    background-color: white;
+}
+
+.logo img {
+    float: left;
+    width: 15%;
+    height: 45px;
+    padding: 2px;
+
+}
+
+.text a {
+    color: blue;
+    text-decoration: none;
+    float: right;
+    width: 15%;
+    text-align: right;
+    margin-top: 20px;
+}
+
+.text a:hover {
+    text-decoration: underline;
+}
+
+.form {
+    float: right;
+    height: 50px;
+    width: 50%;
+}
+
+.form input{
+    float: right;
+    height: 45px;
+    width: 35%;
+}
+
+.form button{
+    float: right;
+    height: 51px;
+    width: auto;
+    border-radius: 7px;
+    border: 1px solid #ababab;
+    background-color: blue;
+    color: white;
+}
+
+.username input, .password input{
+    margin-right: 5px;
+    padding-left: 10px ;
+    border: 1px solid #ababab;
+    border-radius: 7px;
+    font-size: 14px;
+}
+
+.box-content {
+    width: 41%;
+    height: 570px;
+    background-color: white;
+    margin: 20px 0 0 380px;
+}
+
+.title h3 {
+    margin: 20px 0 0 20px;
+    width: 20%;
+    height: 20px;
+    padding-top: 20px;
+}
+
+.title p {
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+.form-content {
+    padding-left: 20px;
+    border-radius: 7px;
+}
+
+.form-content input{
+    border: 1px solid #ababab;
+    border-radius: 6px;
+    height: 30px;
+    width: 40%;
+    padding-left: 10px;
+    font-size: 12px;
+}
+
+.lastname input {
+    float: left;
+    margin: 2px 15px 5px 0;
+}
+
+.firstname input {
+    float: left;
+    margin: 2px 5px 5px 0;
+}
+
+.username input {
+    margin-bottom: 5px;
+}
+
+.dob p {
+    font-size: 10px;
+}
+
+.dob input{
+    float: left;
+    width: 25%;
+    margin-right: 5px;
+}
+
+#title-gender {
+    float: left;
+    font-size: 10px;
+    margin-right: 80%;
+}
+
+.radio-gender button{
+    float: left;
+    height: 30px;
+    width: 30%;
+    text-align: left;
+    font-size: 10px;
+    margin: 0 5px 10px 0;
+    padding: 5px 0;
+}
+
+.radio-gender button input {
+    font-size: 10px;
+    height: 20px;
+    margin: 0 5px 0 0;
+
+}
+
+.gender {
+    height: 20px;
+}
+
+.gender select {
+    height: 30px;
+}
+
+.gender #title1 {
+    font-size:10px;
+    width: 95%;
+}
+
+.gender p {
+    font-size: 10px;
+}
+
+.gender p a{
+    text-decoration: none;
+    color: purple;
+    margin: 0 10px 0 0;
+}
+
+.gender #btn-resign {
+    color: white;
+    background-color: chartreuse ;
+    margin: 10px 0 0 120px ;
+}

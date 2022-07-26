@@ -1,0 +1,128 @@
+.container {
+    width: 100%;
+    height: 700px;
+    background-color: rgba(186, 229, 227, 0.45);
+    font-family: inherit;
+}
+
+.content {
+    float: left;
+    width: 100%;
+    height: 600px;
+}
+
+.footer {
+    float: left;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+}
+
+.slogan {
+    width: 45%;
+    height: auto;
+    float: left;
+    padding: 60px 0 0 60px;
+}
+
+.logo img{
+    height: 110px;
+}
+
+.slogan-text {
+    margin-top: 0;
+    padding-left: 38px;
+}
+
+#slogan {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.form-login {
+    float: left;
+    width: 45%;
+}
+
+.form-content {
+    float: right;
+    width: 60%;
+    height: 300px;
+    margin: 120px 60px 0 0;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 10px 18px #ababab;
+}
+
+.form-content form{
+    padding: 20px 20px 5px 20px;
+}
+
+.form-content input {
+    width: 90%;
+    height: 22px;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ababab;
+    font-size: 17px;
+}
+
+.username input{
+    margin-bottom: 10px;
+}
+
+.btn-login button{
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+    background-color: blue;
+    border: 1px solid #ababab;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.forgot-password a{
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    float: left;
+    margin-bottom: 15px;
+}
+
+.forgot-password a:hover{
+    text-decoration: underline;
+}
+
+hr {
+    margin: 10px 20px;
+}
+
+.creat-acc button{
+    width: 60%;
+    height: 45px;
+    float: left;
+    margin: 10px 70px 0 70px;
+    border-radius: 6px;
+    background-color: chartreuse;
+    cursor: pointer;
+    border: 1px solid #ababab;
+}
+
+.creat-acc button a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.footer p{
+    color: #c3b8b8;
+    margin-left: 30px;
+}
+
+
