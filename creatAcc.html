@@ -58,27 +58,35 @@
                     <div class="gender">
                         <p id="title-gender">Giới tính</p>
                         <div class="radio-gender">
-                            <button>Nam<input type="radio" name="gender"></button>
-                            <button>Nữ<input type="radio" name="gender"></button>
-                            <button>Tùy chỉnh<input type="radio" name="gender"></button>
+                            <div class="selector1">
+                                <label>Nam<input type="radio" name="gender" id="nam"></label>
+                            </div>
+                            <div class="selector1">
+                                <label>Nữ<input type="radio" name="gender" id="nu"></label>
+                            </div>
+                            <div class="selector1">
+                                <label id="option1">Tùy Chỉnh<input type="radio" name="gender" id="option"></label>
+                            </div>
                         </div>
-                        <select required>
-                            <option>Chọn danh xưng</option>
-                            <option>Cô ấy: Chúc cô ấy sinh nhật vui vẻ!</option>
-                            <option>Anh ấy: Chúc anh ấy sinh nhật vui vẻ!</option>
-                            <option>Họ: Chúc họ sinh nhật vui vẻ!</option>
-                        </select>
-                        <div class="name">
-                            <p id="title1">Danh xưng của bạn hiển thị với tất cả mọi người</p>
-                            <input type="text" placeholder="Giới Tính (không bắt buộc)">
-                        </div>
-                        <div class="text-info">
-                            <p>Người dùng dịch vụ của chúng tôi có thể đã tải thông tin liên hệ của bạn lên Facebook.
-                                <a href="https://vi-vn.facebook.com/help/637205020878504">Tìm hiểu thêm.</a> </p>
-                            <p>Bằng cách nhấp vào Đăng ký, bạn đồng ý với
-                                <a href="https://vi-vn.facebook.com/legal/terms/update">Điều khoản, Chính sách quyền riêng tư và Chính sách cookie</a>
-                                của chúng tôi. Bạn có thể nhận được thông báo của chúng tôi qua SMS và hủy nhận bất kỳ
-                                lúc nào.</p>
+                        <div class="option-option">
+                            <select required>
+                                <option>Chọn danh xưng</option>
+                                <option>Cô ấy: Chúc cô ấy sinh nhật vui vẻ!</option>
+                                <option>Anh ấy: Chúc anh ấy sinh nhật vui vẻ!</option>
+                                <option>Họ: Chúc họ sinh nhật vui vẻ!</option>
+                            </select>
+                            <div class="name">
+                                <p id="title1">Danh xưng của bạn hiển thị với tất cả mọi người</p>
+                                <input type="text" placeholder="Giới Tính (không bắt buộc)">
+                            </div>
+                            <div class="text-info">
+                                <p>Người dùng dịch vụ của chúng tôi có thể đã tải thông tin liên hệ của bạn lên Facebook.
+                                    <a href="https://vi-vn.facebook.com/help/637205020878504">Tìm hiểu thêm.</a> </p>
+                                <p>Bằng cách nhấp vào Đăng ký, bạn đồng ý với
+                                    <a href="https://vi-vn.facebook.com/legal/terms/update">Điều khoản, Chính sách quyền riêng tư và Chính sách cookie</a>
+                                    của chúng tôi. Bạn có thể nhận được thông báo của chúng tôi qua SMS và hủy nhận bất kỳ
+                                    lúc nào.</p>
+                            </div>
                         </div>
                         <div class="btn-resign">
                             <input type="submit" value="Đăng ký" id="btn-resign">
